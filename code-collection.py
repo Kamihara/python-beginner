@@ -131,7 +131,7 @@ to_split = s.split(' ')
 print(to_split)
 
 x = '####'.join(to_split)
-print(x
+print(x)
 
 
 print(help(list))
@@ -166,4 +166,52 @@ print(id(Q))
 print(P)
 print(Q)
 
+# 4-21
+num_tuple = (10, 20)
+print(num_tuple)
 
+x,y = num_tuple
+print(x, y)
+
+
+min, max = 10, 20
+print(min, max)
+
+
+i = 10
+j = 20
+tmp = i
+i = j
+j = i
+print(i,j)
+
+a = 100
+b = 200
+print(a, b)
+a, b = b, a
+print(a, b)
+
+# 4-22
+
+choose_from_two = ('a', 'b', 'c')
+
+answer = []
+answer.append('a')
+answer.append('c')
+
+print(choose_from_two)
+print(answer)
+
+
+choose_from_two = ['a', 'b', 'c']
+
+answer = []
+
+# 間違ってchoose_from_two にappnedした場合
+choose_from_two.append('a')
+choose_from_two.append('c')
+
+print(choose_from_two)
+print(answer)
+
+# choose_from_rwo を tuple型にしておけば、append出来ずエラーになる。
