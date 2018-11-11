@@ -215,3 +215,5 @@ print(choose_from_two)
 print(answer)
 
 # choose_from_rwo を tuple型にしておけば、append出来ずエラーになる。
+
+
